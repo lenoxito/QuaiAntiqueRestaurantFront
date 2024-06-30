@@ -11980,4 +11980,29 @@ footer.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.meal-dish {
+  position: relative;
+}
+.meal-dish::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/meal-5232255_1280.jpg);
+  background-size: cover;
+  filter: brightness(0.3);
+}
+.meal-dish * {
+  position: relative;
+}
+.meal-dish .meal-dish-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
